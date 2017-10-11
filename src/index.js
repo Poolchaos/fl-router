@@ -85,3 +85,5 @@ function deactivateState() {
     delete window[getCurrentRoute() + 'View'];
   }
 }
+
+exports.Router = Router;
