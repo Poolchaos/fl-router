@@ -1,7 +1,4 @@
 var Router = function() {
-  const logger = new Logger('ROUTER');
-  logger.text(' initialising router ');
-
   this.ROUTER_VIEW = 'fl-router';
 };
 
